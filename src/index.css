@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,84 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  padding: 1em;
+  background-color: #1DA1F2;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+.feed {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.main__menu__feed {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__buttons {
+  border: none;
+  padding: 1em 2em;
+  background-color: #1DA1F2;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.main__buttons:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.user__name {
+  color: grey;
+}
+
+.feedBox {
+  box-shadow: 0 0 10px #000;
+  margin: 30px auto;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.feedBox__Content {
+  padding: 2em 0;
+}
+
+.feedBox__options {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedBox__ctas:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.user__img {
+  width: 50px;
+}
+
+.feedBox__status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.feed__box-grey-14 {
+  color: grey;
+  font-size: 14px;
+}
+
+@media screen and (min-width:720px) {
+  .feed {
+    width: 50%;
+  }
 }
