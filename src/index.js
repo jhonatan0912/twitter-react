@@ -11,9 +11,9 @@ root.render(
     <Header />
     <div className='feed'>
       <NavMain />
-      <FeedBox />
-      <FeedBox />
-      <FeedBox />
+      <FeedBox content="@jalbertse I'll keep working with react to improve my dev skills" />
+      <FeedBox content="React is cool!" />
+      <FeedBox content="first tweet!" />
     </div>
   </main>
 );

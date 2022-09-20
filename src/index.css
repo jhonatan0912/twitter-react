@@ -34,7 +34,7 @@ code {
   margin: 20px auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .main__buttons {
@@ -95,5 +95,13 @@ code {
 @media screen and (min-width:720px) {
   .feed {
     width: 50%;
+  }
+
+  .feedBox__options {
+    width: 20%;
+  }
+
+  .feedBox__ctas {
+    transform: scale(1.5);
   }
 }

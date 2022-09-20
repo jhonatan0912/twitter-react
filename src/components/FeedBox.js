@@ -1,6 +1,6 @@
 import React from 'react';
 import user from './../user.png';
-const FeedBox = () => {
+const FeedBox = (props) => {
 
   return (
     <div className="feedBox">
@@ -11,7 +11,7 @@ const FeedBox = () => {
         <p className='feed__box-grey-14'>3 hours ago</p>
       </div>
       <div className='feedBox__Content'>
-        @jalbertsr I'll keep working react to improve my dev skills
+        {props.content}
       </div>
       <div className='feedBox__options'>
         <span className='feedBox__ctas'>⬅️</span>
